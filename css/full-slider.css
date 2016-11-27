@@ -1,0 +1,410 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+		font-family:Arial, Helvetica, sans-serif;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container { padding:0; }
+.container-inner { padding: 0; }
+
+/* HEAD MENU */
+.navbar { margin-bottom:0; }
+.navbar-inverse {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fdffda+35,a7edcf+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fdffda 35%, #a7edcf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fdffda 35%,#a7edcf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#fdffda 35%,#a7edcf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a7edcf',GradientType=0 ); /* IE6-9 */
+		
+	padding:10px 0 0 0;
+	height:96px;
+	border-bottom: solid 3px #b75705;
+}
+.navbar-brand { float:none !important; height:auto; padding:0; }
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left:0; }
+.navbar-nav {
+	float:right;
+	margin-top:30px;
+}
+
+.navbar-inverse .navbar-nav>li {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	overflow:hidden;
+}
+.navbar-inverse .navbar-nav > li > a {
+	background:#ee7a17;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 30px;
+	border-left: solid 1px #FFF;
+	border-bottom: solid 3px #ee7a17;
+	
+	text-shadow: 3px 2px 2px rgba(85, 83, 85, 1);
+	
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav > li:hover > a {
+	background:#b75705;
+	color:#FF9;
+}
+
+.navbar-inverse .navbar-nav > li:first-child > a{
+	border-left: none;
+}
+/* //HEAD */
+
+/* BANNER */
+#banner-holder {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22ed01+0,ffffff+86,ffffff+100 */
+	background: #22ed01; /* Old browsers */
+	background: -moz-linear-gradient(top,  #22ed01 0%, #ffffff 86%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #22ed01 0%,#ffffff 86%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #22ed01 0%,#ffffff 86%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22ed01', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	
+	-webkit-box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.24);
+	box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.24);
+	
+	margin-top:96px;
+}
+
+.carousel-caption h2 {
+	text-shadow: 4px 2px 2px rgba(56, 56, 56, 1);
+}
+
+.banner-holder-inner {
+	height:352px;
+}
+/* //BANNER */
+
+/* CONTENT */
+	.page-content { background:url(../images/content-gradient.png); -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.24);
+box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.24);
+		padding-bottom: 40px;
+	}
+
+	.page-content-inner { padding: 40px 10px 10px; }
+	.page-content-inner h3 {
+		margin:0 0 10px 0;
+		padding:0 0 10px 0;
+		font-weight:bold;
+		color:#ee7a17;
+		border-bottom:solid 1px #CCC;
+		font-size:24px;
+	}
+	
+	.home-content { font-size:17px; padding-bottom:20px; }
+	.home-content img {
+		border: solid 5px #ee7a17;
+
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	img.pull-left {
+		margin-right:10px;
+		margin-bottom: 10px;
+	}
+	img.pull-right {
+		margin-left:10px;
+		margin-bottom: 10px;
+	}
+	
+	.duo-text { font-weight:bold; color:#5bb17b; }
+	.duo-text-l { color:#ee7a17; }
+	
+	.promo-box header {
+		background:#ee7a17;
+		border-top: solid 5px #49bb89;
+		padding:20px 0;
+		text-align:center;
+	}
+	.promo-box header h2 {
+		margin:0;
+		padding:0;
+		font-size:34px;
+		color:#FFF;
+		font-weight:bold;
+		text-shadow: 4px 2px 2px rgba(56, 56, 56, 1);
+	}
+	.promo-box header .promo-description { color:#FFF; font-size:24px; padding:10px 0; }
+	/*.promo-box-head { background:url(../images/duo-logo.png) center no-repeat; }*/
+	
+	.promo-content { /* background:url(../images/promo-gradient.png); */ padding-bottom:40px; }
+	.promo-content-inner { display:block; padding:10px; min-height:300px; }
+	.promo-tag-line { text-align:center; font-size:18px; }
+	.promo-tag-line .tag-line-description { 
+		font-size:24px;
+		color:#bc5b08;
+		font-weight:bold;
+		padding:10px 0;
+		text-shadow: 4px 2px 2px rgba(255, 255, 255, 1);
+	}
+	
+	.promo-info { font-size:16px; padding:0 20px; }
+	.promo-info h4 { text-align:center; color:#42553f; font-size:24px; font-weight:bold; padding:10px 0; border-bottom:solid 2px #FFF; text-shadow: 4px 2px 2px rgba(255, 255, 255, 1); }
+	.promo-info h5 { color:#bc5b08; font-size:18px; font-weight:bold; padding-top: 10px; text-shadow: 4px 2px 2px rgba(255, 255, 255, 1); }
+	ul.promo-ul { list-style-type:none; margin:0; padding:0; }
+	ul.promo-ul li { font-size:18px; color:#FFF; }
+	
+	.button-holder {
+		padding:60px 0;
+		text-align:center;
+	}
+	
+	.button-holder a { 
+		padding: 20px 70px;
+		font-size:30px;
+		font-weight:bold;
+		color:#FFF;
+		background:#49bb89;
+
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		border:solid 1px #CCC;
+
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+		text-shadow: 4px 2px 2px rgba(56, 56, 56, 1);
+	}
+	
+	.button-holder a:hover {
+		background:#3b916b;
+		text-decoration:none;
+	}
+	
+	.facebook-like-holder {
+		float:right;
+		margin-left:10px;
+		margin-bottom:10px;
+		width:100%;
+		border:solid 5px #31c65e;
+	}
+	
+	.single-content { min-height:500px; }
+	.single-content h2 {
+		padding:0 0 10px 0;
+		margin:0 0 10px 0;
+		color:#ee7a17;
+		font-weight:bold;
+		border-bottom:solid 1px #CCC;
+		text-shadow: 4px 2px 2px rgba(196, 196, 196, 1);
+		font-size:24px;
+	}
+/* //CONTENT */
+
+/* FORMS */
+.form-wrapper { padding:0 20px; }
+.form-content { width:100%; text-align:center; font-weight:bold; }
+
+.form-content a { color:#ee7a17; }
+input[type="text"], input[type="email"], select, input[type="password"] {
+	width:95%;
+	font-size:18px;
+	padding:10px 20px;
+	border: solid 1px #5bb17b;
+	border-radius: 10px;	
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+}
+.col-right { text-align:right; }
+textarea {
+	width:100%; height:200px;
+	border: solid 1px #5bb17b;
+	border-radius: 10px;	
+}
+.form-row {
+	padding-bottom: 10px;
+}
+
+.form-wrapper label { display:block; clear: both; color:#ee7a17; font-size:18px; font-weight:bold; }
+
+input[type="submit"], input[type="button"] { 
+	padding: 10px 70px;
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	color:#FFF;
+	background:#ee7a17;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover { 
+	background:#3b916b;
+	text-decoration:none;
+}
+.form-wrapper label.error { font-size:14px; color:#F00; font-weight:normal; }
+.form-wrapper input.error, .form-wrapper select.error { border: solid 1px #F00 !important; background:#FFC1C1; }
+.application-sent { padding:40px; color:#333; font-size:18px; }
+/* //FORMS */
+
+/* FAQ */
+.panel-default>.panel-heading { background: #2d8e63; color:#FFF; padding:0; }
+.panel-default>.panel-heading a { 
+	display:block; padding:10px 20px; font-weight:bold; font-size:18px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.panel-default>.panel-heading a:hover { text-decoration:none; background:#27ed07; }
+.panel-default>.panel-heading a:focus { text-decoration:none; }
+.panel-collapse { padding: 15px; }
+/* //FAQ */
+
+footer {
+		text-align:center;
+		padding:20px 0;
+}
+.form-content { width:70%; margin:0 auto; }
+.form-content div { clear:both; display:block; padding-top: 10px; }
+.form-content ul { list-style-type:none; }
+
+.note { padding:20px; font-weight:bold; font-size:16px; background:#FF9; color:#333; }
+
+@media (max-width: 767px) {
+	.container { padding:0; overflow:hidden; }
+	.container-inner { padding: 0; }
+	.navbar-brand img { width:100%; }
+
+	.navbar-nav {
+		margin-top:3px;
+	}
+
+	.navbar-toggle {
+		margin-top: 15px;
+	}
+	
+	.navbar-inverse .navbar-toggle { 
+		border-color: #b75705;
+		background:#ee7a17;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+	.navbar-inverse .navbar-toggle:hover {
+		background: #b75705;
+	}
+	
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+		border-color: #CCC;
+	}
+	.navbar-collapse { margin-top: 10px; }
+	.navbar-nav { float:none; }
+	
+	.navbar-inverse .navbar-nav>li {
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-top-right-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-topright: 0;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+		border-left: none;
+		border-bottom: solid 1px #b75705;
+	}
+	
+	.banner-holder-inner {
+		height:252px;
+	}
+	
+	.page-content { padding-top:20px; }
+	.facebook-like-holder { display:block; width:100%; text-align:center; border:none; }
+	
+	.form-row { padding-bottom: 0; }
+	.col-right { text-align:left; }
+	
+	input[type="text"], input[type="email"], select	{ margin-bottom: 10px; }
+	iframe { width:100% !important; }
+}
+
+@media (max-width: 450px) {
+	.banner-holder-inner {
+		height:152px;
+	}
+	.logo-holder { width: 150px; margin-top:10px; }
+
+	.home-content img { width:150px; border: solid 2px #ee7a17; }
+
+	.carousel-caption h2 { font-size:22px; }
+	.facebook-like-holder { display:none; }
+	img { max-width:100%; }
+	.home-content { font-size:14px; }
+	.page-content-inner h3 { font-size:18px; }
+	
+	.promo-box header h2 { font-size:28px; }
+	.promo-box header .promo-description { font-size:18px; }
+	.promo-tag-line .tag-line-description { font-size:16px; }
+	ul.promo-ul li { font-size:14px; }
+	.promo-tag-line { font-size:16px; }
+	.promo-info h4 { font-size:20px; }
+	.promo-info { font-size:14px; padding:0; }
+	.button-holder a { font-size:20px; }
+	.promo-content-inner { background-size: 100%; }
+	.form-wrapper { padding:0; }
+	
+	.single-content h2 { font-size:18px; line-height:150%; }
+	.panel-default>.panel-heading a { font-size:16px; line-height:150%; }
+	.page-content-inner { padding-top:0; }
+
+}
